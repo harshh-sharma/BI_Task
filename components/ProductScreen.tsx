@@ -1,6 +1,7 @@
 import { products } from '@/constants/dummyProductData';
 import React, { useState, useEffect } from 'react';
 import { View, Text, FlatList, ActivityIndicator, StyleSheet, Image, Button, TouchableOpacity } from 'react-native';
+import { useSelector } from 'react-redux';
 
 const fetchProducts =  () => {
   try {
@@ -18,6 +19,9 @@ const ProductListingScreen = () => {
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(0);
   const [hasMore, setHasMore] = useState(true);
+  const cartItemList = useSelector((state) => state.cart?.cartItemList);
+  console.log("cartItemList",cartItemList);
+  
 
   const pageSize = 10;
 

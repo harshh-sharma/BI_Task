@@ -7,6 +7,7 @@ import { StyleSheet, Text, TouchableOpacity, TouchableOpacityComponent, View } f
 
 const App = () => {
   return (
+    
     <LinearGradient
       // Button Linear Gradient
       colors={['#13547a', '#80d0c7']}
