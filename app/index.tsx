@@ -3,16 +3,21 @@ import React from 'react'
 import { LinearGradient } from 'expo-linear-gradient';
 
 
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, TouchableOpacityComponent, View } from 'react-native'
 
 const App = () => {
   return (
     <LinearGradient
       // Button Linear Gradient
-      colors={['#4c669f', '#3b5998', '#192f6a']}
+      colors={['#13547a', '#80d0c7']}
       style={styles.linearGradient}
     >
-      <Text style={styles.text}>Sign in with Facebook</Text>
+         <Text style={{color:"white",fontWeight:500,fontSize:20,marginVertical:10,textAlign:"center"}}>"Good food is all the sweeter when shared with good friends."</Text>
+        <Link href={"/Login"}><TouchableOpacity style={{backgroundColor:"white",borderRadius:20,paddingHorizontal:20,paddingVertical:7,marginTop:5}}>
+           
+            <Text style={{color:"#12547a",fontSize:18,fontWeight:"bold"}}>Get Started</Text>
+        </TouchableOpacity></Link>
+      {/* <Text style={styles.text}>Get started</Text> */}
     </LinearGradient>
   )
 }
