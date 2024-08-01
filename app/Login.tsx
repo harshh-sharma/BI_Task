@@ -11,6 +11,7 @@ const Login = () => {
       if (email && password) {
         // Handle login logic here
         Alert.alert('Login Successful', `Email: ${email}\nPassword: ${password}`);
+        navigation.navigate("BottomNav")
       } else {
         Alert.alert('Error', 'Please enter both email and password');
       }
@@ -42,7 +43,7 @@ const Login = () => {
           secureTextEntry
           autoCapitalize="none"
         />
-        <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#C80036",width:"100%",paddingVertical:5}}>
+        <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#C80036",width:"100%",paddingVertical:5}} onPress={() => handleLogin()}>
             <Text style={{fontSize:18,fontWeight:"bold",color:"#fff"}}>Login</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={handleRegister}>
