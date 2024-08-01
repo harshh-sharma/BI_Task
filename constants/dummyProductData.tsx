@@ -9,7 +9,8 @@ export const products = [
       "rating": {
         "rate": 3.9,
         "count": 120
-      }
+      },
+      "qty":0
     },
     {
       "id": 2,
@@ -21,7 +22,8 @@ export const products = [
       "rating": {
         "rate": 4.1,
         "count": 259
-      }
+      },
+      "qty":0
     },
     {
       "id": 3,
@@ -33,7 +35,9 @@ export const products = [
       "rating": {
         "rate": 4.7,
         "count": 500
-      }
+      
+    },
+      "qty":0
     },
     {
       "id": 4,
@@ -45,7 +49,8 @@ export const products = [
       "rating": {
         "rate": 2.1,
         "count": 430
-      }
+      },
+      "qty":0
     },
     {
       "id": 5,
@@ -57,7 +62,8 @@ export const products = [
       "rating": {
         "rate": 4.6,
         "count": 400
-      }
+      },
+      "qty":0
     },
     {
       "id": 6,
@@ -69,7 +75,8 @@ export const products = [
       "rating": {
         "rate": 3.9,
         "count": 70
-      }
+      },
+      "quantity":0
     },
     {
       "id": 7,
@@ -81,7 +88,8 @@ export const products = [
       "rating": {
         "rate": 3,
         "count": 400
-      }
+      },
+      "qty":0
     },
     {
       "id": 8,
@@ -93,7 +101,8 @@ export const products = [
       "rating": {
         "rate": 1.9,
         "count": 100
-      }
+      },
+      "qty":0
     },
     {
       "id": 9,
@@ -105,139 +114,151 @@ export const products = [
       "rating": {
         "rate": 3.3,
         "count": 203
-      }
+      },
+      "qty":0
     },
     {
-      "id": 10,
-      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-      "price": 109,
-      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 2.9,
-        "count": 470
-      }
+        "id": 10,
+        "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+        "price": 109,
+        "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        },
+        "qty": 0
     },
     {
-      "id": 11,
-      "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
-      "price": 109,
-      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
-      "rating": {
-        "rate": 4.8,
-        "count": 319
-      }
+        "id": 11,
+        "title": "Silicon Power 256GB SSD 3D NAND A55 SLC Cache Performance Boost SATA III 2.5",
+        "price": 109,
+        "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 319
+        },
+        "qty": 0
     },
     {
-      "id": 12,
-      "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-      "price": 114,
-      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 4.8,
-        "count": 400
-      }
+        "id": 12,
+        "title": "WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
+        "price": 114,
+        "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 4.8,
+            "count": 400
+        },
+        "qty": 0
     },
     {
-      "id": 13,
-      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
-      "price": 599,
-      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 2.9,
-        "count": 250
-      }
+        "id": 13,
+        "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+        "price": 599,
+        "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81QpkIctqPL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 250
+        },
+        "qty": 0
     },
     {
-      "id": 14,
-      "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED ",
-      "price": 999.99,
-      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
-      "category": "electronics",
-      "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
-      "rating": {
-        "rate": 2.2,
-        "count": 140
-      }
+        "id": 14,
+        "title": "Samsung 49-Inch CHG90 144Hz Curved Gaming Monitor (LC49HG90DMNXZA) – Super Ultrawide Screen QLED",
+        "price": 999.99,
+        "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+        "category": "electronics",
+        "image": "https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.2,
+            "count": 140
+        },
+        "qty": 0
     },
     {
-      "id": 15,
-      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
-      "price": 56.99,
-      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
-      "rating": {
-        "rate": 2.6,
-        "count": 235
-      }
+        "id": 15,
+        "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+        "price": 56.99,
+        "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 2.6,
+            "count": 235
+        },
+        "qty": 0
     },
     {
-      "id": 16,
-      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
-      "price": 29.95,
-      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
-      "rating": {
-        "rate": 2.9,
-        "count": 340
-      }
+        "id": 16,
+        "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+        "price": 29.95,
+        "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 340
+        },
+        "qty": 0
     },
     {
-      "id": 17,
-      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
-      "price": 39.99,
-      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
-      "rating": {
-        "rate": 3.8,
-        "count": 679
-      }
+        "id": 17,
+        "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+        "price": 39.99,
+        "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+        "rating": {
+            "rate": 3.8,
+            "count": 679
+        },
+        "qty": 0
     },
     {
-      "id": 18,
-      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
-      "price": 9.85,
-      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
-      "rating": {
-        "rate": 4.7,
-        "count": 130
-      }
+        "id": 18,
+        "title": "MBJ Women's Solid Short Sleeve Boat Neck V",
+        "price": 9.85,
+        "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 130
+        },
+        "qty": 0
     },
     {
-      "id": 19,
-      "title": "Opna Women's Short Sleeve Moisture",
-      "price": 7.95,
-      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
-      "rating": {
-        "rate": 4.5,
-        "count": 146
-      }
+        "id": 19,
+        "title": "Opna Women's Short Sleeve Moisture",
+        "price": 7.95,
+        "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 146
+        },
+        "qty": 0
     },
     {
-      "id": 20,
-      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
-      "price": 12.99,
-      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
-      "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
-      "rating": {
-        "rate": 3.6,
-        "count": 145
-      }
+        "id": 20,
+        "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+        "price": 12.99,
+        "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+        "category": "women's clothing",
+        "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+        "rating": {
+            "rate": 3.6,
+            "count": 145
+        },
+        "qty": 0
     },
     {
         "id": 21,
@@ -247,11 +268,12 @@ export const products = [
         "category": "men's clothing",
         "image": "https://fakestoreapi.com/img/71LJYbey0DL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.2,
-          "count": 78
-        }
-      },
-      {
+            "rate": 4.2,
+            "count": 78
+        },
+        "qty": 0
+    },
+    {
         "id": 22,
         "title": "Wireless Bluetooth Headphones",
         "price": 59.99,
@@ -259,11 +281,12 @@ export const products = [
         "category": "electronics",
         "image": "https://fakestoreapi.com/img/71ulpA8sTPL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.5,
-          "count": 220
-        }
-      },
-      {
+            "rate": 4.5,
+            "count": 220
+        },
+        "qty": 0
+    },
+    {
         "id": 23,
         "title": "Stainless Steel Water Bottle",
         "price": 19.99,
@@ -271,11 +294,12 @@ export const products = [
         "category": "home",
         "image": "https://fakestoreapi.com/img/71KLJRYgkSL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.7,
-          "count": 300
-        }
-      },
-      {
+            "rate": 4.7,
+            "count": 300
+        },
+        "qty": 0
+    },
+    {
         "id": 24,
         "title": "Ergonomic Office Chair",
         "price": 199.99,
@@ -283,11 +307,12 @@ export const products = [
         "category": "furniture",
         "image": "https://fakestoreapi.com/img/71xUG3e4hSL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.6,
-          "count": 150
-        }
-      },
-      {
+            "rate": 4.6,
+            "count": 150
+        },
+        "qty": 0
+    },
+    {
         "id": 25,
         "title": "4K Ultra HD Smart TV",
         "price": 499.99,
@@ -295,11 +320,12 @@ export const products = [
         "category": "electronics",
         "image": "https://fakestoreapi.com/img/71vLCL2I1UL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.8,
-          "count": 85
-        }
-      },
-      {
+            "rate": 4.8,
+            "count": 85
+        },
+        "qty": 0
+    },
+    {
         "id": 26,
         "title": "Organic Cotton Bed Sheets",
         "price": 89.99,
@@ -307,11 +333,12 @@ export const products = [
         "category": "home",
         "image": "https://fakestoreapi.com/img/71uM5SHi6RL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.4,
-          "count": 95
-        }
-      },
-      {
+            "rate": 4.4,
+            "count": 95
+        },
+        "qty": 0
+    },
+    {
         "id": 27,
         "title": "Fitness Tracker Watch",
         "price": 39.99,
@@ -319,11 +346,12 @@ export const products = [
         "category": "electronics",
         "image": "https://fakestoreapi.com/img/71lbATo2NLL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.3,
-          "count": 180
-        }
-      },
-      {
+            "rate": 4.3,
+            "count": 180
+        },
+        "qty": 0
+    },
+    {
         "id": 28,
         "title": "Portable Camping Stove",
         "price": 34.99,
@@ -331,11 +359,12 @@ export const products = [
         "category": "outdoors",
         "image": "https://fakestoreapi.com/img/71xUhG4fMLL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.5,
-          "count": 110
-        }
-      },
-      {
+            "rate": 4.5,
+            "count": 110
+        },
+        "qty": 0
+    },
+    {
         "id": 29,
         "title": "Stylish Sunglasses",
         "price": 24.99,
@@ -343,11 +372,12 @@ export const products = [
         "category": "accessories",
         "image": "https://fakestoreapi.com/img/71MD3z6NL3L._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.1,
-          "count": 75
-        }
-      },
-      {
+            "rate": 4.1,
+            "count": 75
+        },
+        "qty": 0
+    },
+    {
         "id": 30,
         "title": "Classic Wall Clock",
         "price": 45.99,
@@ -355,11 +385,12 @@ export const products = [
         "category": "home",
         "image": "https://fakestoreapi.com/img/71tLr3vQZlL._AC_UL640_QL65_.jpg",
         "rating": {
-          "rate": 4.7,
-          "count": 40
-        }
-      },
-      {
+            "rate": 4.7,
+            "count": 40
+        },
+        "qty": 0
+    },
+    {
         "id": 31,
         "title": "Men's Casual Sneakers",
         "price": 49.99,
@@ -369,7 +400,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 160
-        }
+        },
+        "qty": 0
       },
       {
         "id": 32,
@@ -381,7 +413,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 50
-        }
+        },
+        "qty": 0
       },
       {
         "id": 33,
@@ -393,7 +426,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 85
-        }
+        },
+        "qty": 0
       },
       {
         "id": 34,
@@ -405,7 +439,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 120
-        }
+        },
+        "qty": 0
       },
       {
         "id": 35,
@@ -417,7 +452,8 @@ export const products = [
         "rating": {
           "rate": 4.2,
           "count": 100
-        }
+        },
+        "qty": 0
       },
       {
         "id": 36,
@@ -429,7 +465,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 200
-        }
+        },
+        "qty": 0
       },
       {
         "id": 37,
@@ -441,7 +478,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 70
-        }
+        },
+        "qty": 0
       },
       {
         "id": 38,
@@ -453,7 +491,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 150
-        }
+        },
+        "qty": 0
       },
       {
         "id": 39,
@@ -465,7 +504,8 @@ export const products = [
         "rating": {
           "rate": 4.1,
           "count": 90
-        }
+        },
+        "qty": 0
       },
       {
         "id": 40,
@@ -477,7 +517,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 130
-        }
+        },
+        "qty": 0
       },
       {
         "id": 41,
@@ -489,7 +530,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 60
-        }
+        },
+        "qty": 0
       },
       {
         "id": 42,
@@ -501,7 +543,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 140
-        }
+        },
+        "qty": 0
       },
       {
         "id": 43,
@@ -513,7 +556,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 80
-        }
+        },
+        "qty": 0
       },
       {
         "id": 44,
@@ -525,7 +569,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 95
-        }
+        },
+        "qty": 0
       },
       {
         "id": 45,
@@ -537,7 +582,8 @@ export const products = [
         "rating": {
           "rate": 4.7,
           "count": 110
-        }
+        },
+        "qty": 0
       },
       {
         "id": 46,
@@ -549,7 +595,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 75
-        }
+        },
+        "qty": 0
       },
       {
         "id": 47,
@@ -561,7 +608,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 110
-        }
+        },
+        "qty": 0
       },
       {
         "id": 48,
@@ -573,7 +621,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 95
-        }
+        },
+        "qty": 0
       },
       {
         "id": 49,
@@ -585,7 +634,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 85
-        }
+        },
+        "qty": 0
       },
       {
         "id": 50,
@@ -597,7 +647,8 @@ export const products = [
         "rating": {
           "rate": 4.33,
           "count": 46
-        }
+        },
+        "qty": 0
       },
       {
         "id": 51,
@@ -609,7 +660,8 @@ export const products = [
         "rating": {
           "rate": 4.2,
           "count": 120
-        }
+        },
+        "qty": 0
       },
       {
         "id": 52,
@@ -621,7 +673,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 150
-        }
+        },
+        "qty": 0
       },
       {
         "id": 53,
@@ -633,7 +686,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 75
-        }
+        },
+        "qty": 0
       },
       {
         "id": 54,
@@ -645,7 +699,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 130
-        }
+        },
+        "qty": 0
       },
       {
         "id": 55,
@@ -657,7 +712,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 90
-        }
+        },
+        "qty": 0
       },
       {
         "id": 56,
@@ -669,7 +725,8 @@ export const products = [
         "rating": {
           "rate": 4.7,
           "count": 50
-        }
+        },
+        "qty": 0
       },
       {
         "id": 57,
@@ -681,7 +738,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 110
-        }
+        },
+        "qty": 0
       },
       {
         "id": 58,
@@ -693,7 +751,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 85
-        }
+        },
+        "qty": 0
       },
       {
         "id": 59,
@@ -705,7 +764,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 95
-        }
+        },
+        "qty": 0
       },
       {
         "id": 60,
@@ -717,7 +777,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 120
-        }
+        },
+        "qty": 0
       },
       {
         "id": 61,
@@ -729,7 +790,8 @@ export const products = [
         "rating": {
           "rate": 4.7,
           "count": 90
-        }
+        },
+        "qty": 0
       },
       {
         "id": 62,
@@ -741,7 +803,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 70
-        }
+        },
+        "qty": 0
       },
       {
         "id": 63,
@@ -753,7 +816,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 60
-        }
+        },
+        "qty": 0
       },
       {
         "id": 64,
@@ -765,7 +829,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 110
-        }
+        },
+        "qty": 0
       },
       {
         "id": 65,
@@ -777,7 +842,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 80
-        }
+        },
+        "qty": 0
       },
       {
         "id": 66,
@@ -789,7 +855,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 90
-        }
+        },
+        "qty": 0
       },
       {
         "id": 67,
@@ -801,7 +868,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 75
-        }
+        },
+        "qty": 0
       },
       {
         "id": 68,
@@ -813,7 +881,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 150
-        }
+        },
+        "qty": 0
       },
       {
         "id": 69,
@@ -825,7 +894,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 130
-        }
+        },
+        "qty": 0
       },
       {
         "id": 70,
@@ -837,7 +907,8 @@ export const products = [
         "rating": {
           "rate": 4.3,
           "count": 120
-        }
+        },
+        "qty": 0
       },
       {
         "id": 71,
@@ -849,7 +920,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 95
-        }
+        },
+        "qty": 0
       },
       {
         "id": 72,
@@ -861,7 +933,8 @@ export const products = [
         "rating": {
           "rate": 4.7,
           "count": 50
-        }
+        },
+        "qty": 0
       },
       {
         "id": 73,
@@ -873,7 +946,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 85
-        }
+        },
+        "qty": 0
       },
       {
         "id": 74,
@@ -885,7 +959,8 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 90
-        }
+        },
+        "qty": 0
       },
       {
         "id": 75,
@@ -897,7 +972,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 120
-        }
+        },
+        "qty": 0
       },
       {
         "id": 76,
@@ -909,7 +985,8 @@ export const products = [
         "rating": {
           "rate": 4.8,
           "count": 45
-        }
+        },
+        "qty": 0
       },
       {
         "id": 77,
@@ -921,7 +998,8 @@ export const products = [
         "rating": {
           "rate": 4.4,
           "count": 105
-        }
+        },
+        "qty": 0
       },
       {
         "id": 78,
@@ -933,7 +1011,8 @@ export const products = [
         "rating": {
           "rate": 4.7,
           "count": 60
-        }
+        },
+        "qty": 0
       },
       {
         "id": 79,
@@ -945,7 +1024,8 @@ export const products = [
         "rating": {
           "rate": 4.6,
           "count": 70
-        }
+        },
+        "qty": 0
       },
       {
         "id": 80,
@@ -957,6 +1037,7 @@ export const products = [
         "rating": {
           "rate": 4.5,
           "count": 85
-        }
+        },
+        "qty": 0
       }
   ]
