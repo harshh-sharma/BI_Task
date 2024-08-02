@@ -43,7 +43,7 @@ const Login = () => {
           secureTextEntry
           autoCapitalize="none"
         />
-        <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#C80036",width:"100%",paddingVertical:5}} onPress={() => handleLogin()}>
+        <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#000",width:"100%",paddingVertical:5}} onPress={() => handleLogin()}>
             <Text style={{fontSize:18,fontWeight:"bold",color:"#fff"}}>Login</Text>
         </TouchableOpacity>
         <TouchableOpacity onPress={handleRegister}>
@@ -59,7 +59,7 @@ const Login = () => {
       justifyContent: 'center',
       alignItems: 'center',
       padding: 16,
-      backgroundColor: '#FFF5E1',
+      backgroundColor: "#00BFFF",
     },
     title: {
       fontSize: 28,
@@ -74,9 +74,9 @@ const Login = () => {
       borderWidth: 1,
       borderRadius: 5,
       paddingHorizontal: 10,
-      marginVertical: 10,
+      marginVertical: 7,
       backgroundColor: '#FFFFFF',
-      color: '#FFF5E1',
+      color: '#000',
     },
     buttonContainer: {
       marginTop: 20,
@@ -87,7 +87,7 @@ const Login = () => {
     },
     registerText: {
       marginTop: 20,
-      color: '#C80036',
+      color: '#fff',
       textDecorationLine: 'underline',
     },
   });

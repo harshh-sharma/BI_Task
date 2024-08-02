@@ -13,9 +13,10 @@ export default function App() {
 
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: '#FF8C00',
-          tabBarInactiveTintColor: '#2E8B57',
-          tabBarStyle: { backgroundColor: '#F0E68C' },
+          tabBarActiveTintColor: 'white',
+          tabBarInactiveTintColor: 'gray',
+          tabBarStyle: { backgroundColor: '#000' },
+          
         }}
       >
         <Tab.Screen name="Home" component={HomeScreen} />

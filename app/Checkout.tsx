@@ -85,7 +85,7 @@ const Checkout = () => {
         renderItem={renderCartItem}
         keyExtractor={item => item.id.toString()}
       />
-      {purchaseConfirmed == false && <Text style={{fontSize:20,fontWeight:"bold",color:"rgb(105,175,9)"}}>Total:{totalPrice}</Text>}
+      {purchaseConfirmed == false && <Text style={{fontSize:20,fontWeight:"bold",color:"#fff"}}>TotalAmount :{totalPrice}</Text>}
       {purchaseConfirmed && <View style={{justifyContent:"center",alignItems:"center"}}><Text style={{color:"rgb(105,175,94)",fontWeight:"bold",fontSize:20}}>Your order Successfully Placed</Text></View>}
       {purchaseConfirmed && (
         <Animated.View
@@ -124,6 +124,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 20,
+    backgroundColor:"#00BFFF"
   },
   title: {
     fontSize: 28,
@@ -153,11 +154,13 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 20,
-    color: '#333',
+    color: '#000',
+    fontWeight:"500"
   },
   price: {
     fontSize: 20,
-    color: '#333',
+    color: '#000',
+    fontWeight:"500"
   },
   confirmation: {
     marginVertical: 20,

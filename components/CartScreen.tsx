@@ -77,9 +77,9 @@ const CartScreen = () => {
         ListEmptyComponent={<Text style={styles.emptyText}>Cart is empty</Text>}
       />
       {cartItemList.length > 0 ? <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#000",paddingVertical:10}} onPress={() => navigation.navigate("Checkout")}>
-        <Text style={{color:"white"}}>Go to Checkout</Text>
-      </TouchableOpacity> : <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#000",paddingVertical:10}} onPress={() => navigation.navigate("Products")}>
-        <Text style={{color:"white"}}>Shop Now</Text>
+        <Text style={{color:"white",fontWeight:"bold"}}>Go to Checkout</Text>
+      </TouchableOpacity> : <TouchableOpacity style={{justifyContent:"center",alignItems:"center",backgroundColor:"#000",paddingVertical:7}} onPress={() => navigation.navigate("Products")}>
+        <Text style={{color:"white",fontWeight:"bold"}}>Shop Now</Text>
       </TouchableOpacity>}
     </View>
   );
@@ -89,10 +89,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-    backgroundColor: "#f8f8f8",
+    backgroundColor: "#00BFFF",
   },
   itemContainer: {
-    backgroundColor: "#fff",
+    backgroundColor: "#F5F5F5",
     padding: 16,
     marginBottom: 10,
     borderRadius: 8,
@@ -121,20 +121,21 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: "#007bff",
+    backgroundColor: "#00BFFF",
     justifyContent: "center",
     alignItems: "center",
     marginHorizontal: 10,
   },
   quantityText: {
     color: "#000",
-    fontSize: 18,
+    fontSize: 20,
     fontWeight: "bold",
   },
   removeButton: {
     marginTop: 10,
-    backgroundColor: "#ff4d4d",
-    padding: 10,
+    backgroundColor: "#000",
+    paddingHorizontal: 10,
+    paddingVertical:7,
     borderRadius: 5,
     alignItems: "center",
   },
@@ -150,7 +151,7 @@ const styles = StyleSheet.create({
   },
   image: {
     width: "100%",
-    height: 160,
+    height: 140,
     resizeMode: "cover",
     borderBottomWidth: 1,
     borderBottomColor: "#EEE",

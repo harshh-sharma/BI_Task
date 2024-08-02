@@ -87,7 +87,7 @@ const ProductListingScreen = () => {
         </View>
         <View style={styles.details}>
           <Text style={styles.title}>{item.title}</Text>
-          <Text style={styles.price}>${item.price.toFixed(2)}</Text>
+          <Text style={styles.price}>{item.price.toFixed(2)}</Text>
           {isItemPresentInCart ? (
               <View style={styles.btnContainer}>
              
@@ -134,7 +134,7 @@ const ProductListingScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#00BFFF",
     // padding: 16,
     justifyContent: "center",
     alignItems: "center",
@@ -157,8 +157,9 @@ const styles = StyleSheet.create({
   noMoreText: {
     textAlign: "center",
     fontSize: 16,
-    color: "#FF8C00",
+    color: "fff",
     marginVertical: 20,
+    fontWeight:"bold"
   },
 
   card: {
@@ -192,12 +193,12 @@ const styles = StyleSheet.create({
   },
   price: {
     fontSize: 16,
-    color: "#7C00FE",
+    color: "#00BFFF",
     marginBottom: 10,
   },
   button: {
-    backgroundColor: "#FF8C00",
-    paddingVertical: 12,
+    backgroundColor: "#000",
+    paddingVertical: 7,
     borderRadius: 5,
     alignItems: "center",
     elevation: 5,
@@ -217,7 +218,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
-    backgroundColor: '#007bff', // Blue color
+    backgroundColor: "#00BFFF", // Blue color
     justifyContent: 'center',
     alignItems: 'center',
     marginHorizontal: 10,
