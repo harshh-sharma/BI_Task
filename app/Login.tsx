@@ -1,16 +1,20 @@
+
 import { useNavigation } from 'expo-router';
 import React, { useState } from 'react'
 import { Alert, Button, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native'
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigation = useNavigation();
   
-    const handleLogin = () => {
+    const handleLogin = async () => {
       if (email && password) {
         // Handle login logic here
         Alert.alert('Login Successful', `Email: ${email}\nPassword: ${password}`);
+        await AsyncStorage.setItem("user_email",email);
+        await AsyncStorage.setItem("user_password",password);
         navigation.navigate("BottomNav")
       } else {
         Alert.alert('Error', 'Please enter both email and password');

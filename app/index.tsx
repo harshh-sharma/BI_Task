@@ -10,13 +10,13 @@ const App = () => {
     
     <LinearGradient
       // Button Linear Gradient
-      colors={['#13547a', '#80d0c7']}
+      colors={['#00BFFF', '#fff']}
       style={styles.linearGradient}
     >
-         <Text style={{color:"white",fontWeight:500,fontSize:20,marginVertical:10,textAlign:"center"}}>"Good food is all the sweeter when shared with good friends."</Text>
-        <Link href={"/Login"}><TouchableOpacity style={{backgroundColor:"white",borderRadius:20,paddingHorizontal:20,paddingVertical:7,marginTop:5}}>
+         <Text style={{color:"#000",fontWeight:500,fontSize:20,marginVertical:10,textAlign:"center"}}>"Good food is all the sweeter when shared with good friends."</Text>
+        <Link href={"/Login"}><TouchableOpacity style={{backgroundColor:"white",borderRadius:20,paddingHorizontal:20,paddingVertical:7,marginTop:5,borderWidth:1,borderColor:"#000"}}>
            
-            <Text style={{color:"#12547a",fontSize:18,fontWeight:"bold"}}>Get Started</Text>
+            <Text style={{color:"#000",fontSize:18,fontWeight:"bold"}}>Get Started</Text>
         </TouchableOpacity></Link>
       {/* <Text style={styles.text}>Get started</Text> */}
     </LinearGradient>

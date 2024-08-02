@@ -146,7 +146,7 @@ const styles = StyleSheet.create({
   emptyText: {
     textAlign: "center",
     fontSize: 18,
-    color: "#666",
+    color: "#fff",
     marginTop: 20,
   },
   image: {

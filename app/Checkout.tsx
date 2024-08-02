@@ -86,7 +86,7 @@ const Checkout = () => {
         keyExtractor={item => item.id.toString()}
       />
       {purchaseConfirmed == false && <Text style={{fontSize:20,fontWeight:"bold",color:"#fff"}}>TotalAmount :{totalPrice}</Text>}
-      {purchaseConfirmed && <View style={{justifyContent:"center",alignItems:"center"}}><Text style={{color:"rgb(105,175,94)",fontWeight:"bold",fontSize:20}}>Your order Successfully Placed</Text></View>}
+      {purchaseConfirmed && <View style={{justifyContent:"center",alignItems:"center"}}><Text style={{color:"white",fontWeight:"bold",fontSize:30,textAlign:"center"}}>Your order Successfully Placed</Text></View>}
       {purchaseConfirmed && (
         <Animated.View
           style={[
