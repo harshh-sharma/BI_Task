@@ -1,4 +1,4 @@
-import { Link } from 'expo-router'
+import { Link, useNavigation } from 'expo-router'
 import React from 'react'
 import { LinearGradient } from 'expo-linear-gradient';
 
@@ -6,6 +6,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { StyleSheet, Text, TouchableOpacity, TouchableOpacityComponent, View } from 'react-native'
 
 const App = () => {
+  const navigation = useNavigation();
   return (
     
     <LinearGradient
@@ -14,10 +15,10 @@ const App = () => {
       style={styles.linearGradient}
     >
          <Text style={{color:"#000",fontWeight:500,fontSize:20,marginVertical:10,textAlign:"center"}}>"Good food is all the sweeter when shared with good friends."</Text>
-        <Link href={"/Login"}><TouchableOpacity style={{backgroundColor:"white",borderRadius:20,paddingHorizontal:20,paddingVertical:7,marginTop:5,borderWidth:1,borderColor:"#000"}}>
+       <TouchableOpacity style={{backgroundColor:"white",borderRadius:20,paddingHorizontal:20,paddingVertical:7,marginTop:5,borderWidth:1,borderColor:"#000"}} onPress={() =>navigation.navigate("Login")}>
            
             <Text style={{color:"#000",fontSize:18,fontWeight:"bold"}}>Get Started</Text>
-        </TouchableOpacity></Link>
+        </TouchableOpacity>
       {/* <Text style={styles.text}>Get started</Text> */}
     </LinearGradient>
   )

@@ -4,12 +4,12 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const HomeScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to Our Restaurant</Text>
+      <Text style={styles.title}>Welcome to Our E-commerce Store</Text>
       <Text style={styles.description}>
-        Enjoy the best culinary experiences with our diverse and exquisite menu, crafted to satisfy all tastes.
+      Discover a wide range of products, from electronics to fashion, all at unbeatable prices. Enjoy an exceptional shopping experience with us.
       </Text>
       <Image
-        source={{ uri: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=600' }}
+        source={{ uri: 'https://tse1.mm.bing.net/th?id=OIP.j1vOYtX6KRFcU_9ht5bOKQHaE8&pid=Api&P=0&h=180' }}
         style={styles.image}
         resizeMode="cover"
       />
